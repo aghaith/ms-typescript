@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let randomValue = 10;
+randomValue = true;
+randomValue = 'Mateo';
+console.log(randomValue.name); // Error: Object is of type unknown
+randomValue(); // Error: Object is of type unknown
+randomValue.toUpperCase(); // Error: Object is of type unknown
